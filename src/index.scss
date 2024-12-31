@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background: linear-gradient(196.2deg, #0D1E48 0%, #304571 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
