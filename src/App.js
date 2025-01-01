@@ -1,10 +1,12 @@
 import './App.scss';
+import logo from './assets/icons/logo.svg';
+import rocket from './assets/images/rocket.png';
 
 const App = () => {
   return (
     <div className="app">
       <header className="header">
-        <img src='/assets/icons/logo.svg' className="header__logo" />
+        <img src={logo} className="header__logo" alt="Logo" />
         
         <input type="checkbox" id="menu-toggle" className="header__menu-toggle" />
         <label className="header__burger-menu" htmlFor="menu-toggle">
@@ -16,17 +18,17 @@ const App = () => {
         <nav className="header__nav">
           <ul className="header__nav-list">
             <li className="header__nav-item">
-              <a href="#" className="header__nav-link">
+              <a href="#home" className="header__nav-link">
                 Home
               </a>
             </li>
             <li className="header__nav-item">
-              <a href="#" className="header__nav-link">
+              <a href="#products" className="header__nav-link">
                 Products
               </a>
             </li>
             <li className="header__nav-item">
-              <a href="#" className="header__nav-link">
+              <a href="#cart" className="header__nav-link">
                 <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient id="gradient-id" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
@@ -96,7 +98,7 @@ const App = () => {
       </main>
       
       <footer className="footer">
-        <img className="footer__image" src="/assets/images/rocket.png" alt="Rocket" />
+        <img className="footer__image" src={rocket} alt="Rocket" />
         <p className="footer__text">Exciting space adventure!</p>
       </footer>
     </div>
