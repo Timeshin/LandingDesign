@@ -124,8 +124,9 @@ $secondary-color: #FF70D9;
 .content {
   margin-top: 80px;
 
-  section:not(:first-child) {
-    padding: 55px 80px;
+  section {
+    padding: 0 80px;
+    margin-bottom: 55px;
   }
 
   .intro {
@@ -374,8 +375,9 @@ $secondary-color: #FF70D9;
 
 @media (max-width: 768px) {
   .content {
-    section:not(:first-child) {
-      padding: 50px 30px;
+    section {
+      padding: 0 30px;
+      margin-bottom: 50px;
     }
 
     .intro {
@@ -453,7 +455,7 @@ $secondary-color: #FF70D9;
     margin-top: 48px;
 
     section:not(:first-child) {
-      padding: 50px 20px;
+      padding: 0 20px;
     }
 
     .intro {
