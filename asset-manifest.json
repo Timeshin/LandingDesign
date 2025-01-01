@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LandingDesign/static/css/main.d2316ac4.css",
+    "main.css": "/LandingDesign/static/css/main.812fb2de.css",
     "main.js": "/LandingDesign/static/js/main.58c5766b.js",
     "static/media/space5.png": "/LandingDesign/static/media/space5.a8a50fb711305d361b17.png",
     "static/media/space1.png": "/LandingDesign/static/media/space1.cfe9d511afb2ab08de51.png",
@@ -10,11 +10,11 @@
     "static/media/earth.png": "/LandingDesign/static/media/earth.59f01870b6589f28a100.png",
     "static/media/logo.svg": "/LandingDesign/static/media/logo.f4153131d3955bdfa609912a9f3b5caf.svg",
     "index.html": "/LandingDesign/index.html",
-    "main.d2316ac4.css.map": "/LandingDesign/static/css/main.d2316ac4.css.map",
+    "main.812fb2de.css.map": "/LandingDesign/static/css/main.812fb2de.css.map",
     "main.58c5766b.js.map": "/LandingDesign/static/js/main.58c5766b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2316ac4.css",
+    "static/css/main.812fb2de.css",
     "static/js/main.58c5766b.js"
   ]
 }
